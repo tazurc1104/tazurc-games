@@ -180,11 +180,30 @@ button {
     align-items: center;
 }
 
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #31E1F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 800;
+    text-shadow: red -3px 0, #31E1F7 3px 0;
+}
+.tic-tac-toe {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 
-
-
-
-
+#reset {
+    border: 1px solid #31E1F7;
+    padding: 10px 0px;
+    
+}
+.reset {
+    cursor: pointer;
+}
 .about {
     display: flex;
     justify-content: center;
